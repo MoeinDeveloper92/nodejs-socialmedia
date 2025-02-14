@@ -1,0 +1,14 @@
+{
+  "name": "nodejs-socialmedia",
+  "version": "1.0.0",
+  "description": "Social Media API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Moein Samani Nejad",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
