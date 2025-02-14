@@ -4,11 +4,17 @@
   "description": "Social Media API",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:dev": "nodemon index.js",
+    "start:prod": "NODE_ENV=production  node index.js"
   },
   "author": "Moein Samani Nejad",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.4.7",
     "express": "^4.21.2"
+  },
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
 }
